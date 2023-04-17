@@ -1,0 +1,135 @@
+.mainContainer {
+    margin: 0 30px;
+    padding: 0;
+}
+
+.searchContainer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+}
+
+.searchBarTitle,
+.resultBarTitle,
+.dataBarTitle {
+    margin: 0;
+    padding: 20px 40px;
+    border-bottom: 1px solid #dbdbdb;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.searchBar {
+    margin: 0;
+    padding: 20px 40px 40px 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: min-content;
+    gap: 40px;
+}
+
+.searchRequirement {
+    margin: 20px 0 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.searchLabel {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.searchBtn,
+.dataOutputBtn {
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 10px 20px;
+    width: 280px;
+    height: 50px;
+    border: 1px solid #dbdbdb;
+    background-color: white;
+    color: #03835a;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.searchBtn:hover,
+.dataOutputBtn:hover,
+.confirmBtn:hover {
+    cursor: pointer;
+    border: 1px solid #03835a;
+}
+
+.resultContainer,
+.dataContainer {
+    margin: 40px 0 0 0;
+    padding: 0;
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+}
+
+.resultBar {
+    margin: 0 0 20px 0;
+    padding: 20px 40px; 
+}
+
+.resultItemRow:first-child {
+    font-weight: bold;
+}
+
+.resultItemRow:not(:last-child) {
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.resultItemRow:not(:first-child) {
+    background-color: #f7f7f7;
+}
+
+.resultItemRow {
+    margin: 0;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dataBar {
+    margin: 0 0 20px 0;
+    padding: 20px 40px; 
+    display: flex;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.dataContent {
+    margin: 0;
+    padding: 0 40px 0 0;
+    display: flex;
+    justify-content: space-between;
+    border-right: 1px dashed #dbdbdb;
+    flex-basis: 90%;
+}
+
+.buyOrSellDetails {
+    font-weight: bold;
+}
+
+.detailedDataWrapper {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.confirmBtn {
+    margin: auto auto auto 40px;
+    padding: 10px 20px;
+    border: 1px solid #dbdbdb;
+    background-color: white;
+    color: #03835a;
+    border-radius: 5px;
+    flex-basis: 10%;
+
+}
